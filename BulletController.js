@@ -9,7 +9,7 @@ export default class BulletController {
         this.bulletColour = bulletColour
         this.soundEnabled = soundEnabled
 
-        this.shootSound = new Audio("../canvas - space invaders/JS/sounds/shoot.wav")
+        this.shootSound = new Audio("../canvas - space invaders/sounds/shoot.wav")
         this.shootSound.volume = 0.5
     }
     draw(ctx) {
