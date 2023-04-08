@@ -26,7 +26,7 @@ export default class EnemyController {
         this.canvas = canvas
         this.enemyBulletController = enemyBulletController
         this.playerBulletController = playerBulletController
-        this.enemyDeathSound = new Audio("../JS/sounds/enemy-death.wav")
+        this.enemyDeathSound = new Audio("../canvas - space invaders/JS/sounds/enemy-death.wav")
         this.enemyDeathSound.volume = 0.5
         this.createEnemies()
 
