@@ -11,7 +11,7 @@ window.onload = function () {
     canvas.height = 600
 
     const background = new Image()
-    background.src = ("../canvas - space invaders/images/space.png")
+    background.src = ("./images/space.png")
 
     const playerBulletController = new BulletController(canvas, 10, "red", true)
     const enemyBulletController = new BulletController(canvas, 4, "white", false)

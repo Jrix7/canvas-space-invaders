@@ -7,7 +7,7 @@ export default class Enemy {
 
 
         this.image = new Image()
-        this.image.src = `../canvas - space invaders/images/enemy${imageNumber}.png`
+        this.image.src = `./images/enemy${imageNumber}.png`
 
     }
     draw(ctx) {
