@@ -6,12 +6,12 @@
 
 @font-face {
     font-family: 'Blox';
-    src: url(invaders-font-collection/invaders-2504/blox-brk/Blox2.ttf);
+    src: url(./css/invaders-font-collection/invaders-2504/blox-brk/Blox2.ttf);
 }
 
 @font-face {
     font-family: '01-digit';
-    src: url(invaders-font-collection/invaders-2504/01-digit/01\ Digit.ttf);
+    src: url(./css/invaders-font-collection/invaders-2504/01-digit/01\ Digit.ttf);
 }
 
 #space-png {
